@@ -7,27 +7,16 @@ import TitleMatch from "../components/TitleMatch.astro";
 import CardPrograma from "../components/CardPrograma.astro";
 import Awards from "../components/Awards.astro";
 import Gallery from "../components/Gallery.astro";
+import Home from "../components/Home.astro";
 ---
 
 <Layout title="Escuela formativa de fútbol JVC">
   <main class="px-4">
     <div class="space-y-24">
-      <section class="w-full py-14 px-32 flex flex-col gap-16">
-        <h1
-          class="text-black/80 dark:text-white text-9xl font-bold flex justify-center flex-row"
-        >
-          ACADEMIA JVC
-        </h1>
-        <h2
-          class="text-black/80 dark:text-white text-center text-2xl font-semibold flex justify-center flex-row"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-          nostrum veniam dolore quis placeat cupiditate sed minus tempora beatae
-          quidem cumque incidunt blanditiis odio, consequatur eligendi porro
-          quam repellat esse!
-        </h2>
-      </section>
       <SectionContainer>
+        <Home />
+      </SectionContainer>
+      <SectionContainer id="#nosotros">
         <h2
           class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
         >
@@ -35,7 +24,7 @@ import Gallery from "../components/Gallery.astro";
         </h2>
         <Nosotros />
       </SectionContainer>
-      <SectionContainer>
+      <SectionContainer id="#programa">
         <h2
           class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
         >
@@ -43,7 +32,7 @@ import Gallery from "../components/Gallery.astro";
         </h2>
         <CardPrograma />
       </SectionContainer>
-      <SectionContainer>
+      <SectionContainer id="#cronograma">
         <h2
           class="flex items-center mb-1 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
         >
@@ -52,7 +41,7 @@ import Gallery from "../components/Gallery.astro";
         <TitleMatch />
         <CardMatch />
       </SectionContainer>
-      <SectionContainer>
+      <SectionContainer id="#galeria">
         <h2
           class="flex items-center justify-center mb-6 font-bold text-3xl text-black/80 dark:text-white"
         >
