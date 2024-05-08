@@ -87,15 +87,5 @@
   <circle cx="32.404" cy="13.1873" r="1" stroke="white" stroke-width="0.355294"
   ></circle>
   <style>
-    path {
-      fill: #064D9F;
-      stroke: #f064D9F;
-    }
-    @media (prefers-color-scheme: dark){
-        path {
-      fill: #fff;
-      stroke: #fff;
-    }
-    }
-  </style>
+   </style>
 </svg>
