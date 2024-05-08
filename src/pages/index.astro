@@ -8,6 +8,7 @@ import CardPrograma from "../components/CardPrograma.astro";
 import Awards from "../components/Awards.astro";
 import Gallery from "../components/Gallery.astro";
 import Home from "../components/Home.astro";
+import Contact from "../components/Contact.astro";
 ---
 
 <Layout title="Escuela formativa de fútbol JVC">
@@ -16,7 +17,7 @@ import Home from "../components/Home.astro";
       <SectionContainer>
         <Home />
       </SectionContainer>
-      <SectionContainer id="#nosotros">
+      <SectionContainer id="nosotros">
         <h2
           class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-[#1B1A55] dark:text-white"
         >
@@ -24,7 +25,7 @@ import Home from "../components/Home.astro";
         </h2>
         <Nosotros />
       </SectionContainer>
-      <SectionContainer id="#programa">
+      <SectionContainer id="programa">
         <h2
           class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-[#1B1A55] dark:text-white"
         >
@@ -32,7 +33,7 @@ import Home from "../components/Home.astro";
         </h2>
         <CardPrograma />
       </SectionContainer>
-      <SectionContainer id="#cronograma">
+      <SectionContainer id="cronograma">
         <h2
           class="flex items-center mb-1 text-3xl font-semibold gap-x-3 text-[#1B1A55] dark:text-white"
         >
@@ -41,7 +42,7 @@ import Home from "../components/Home.astro";
         <TitleMatch />
         <CardMatch />
       </SectionContainer>
-      <SectionContainer id="#galeria">
+      <SectionContainer id="galeria">
         <h2
           class="flex items-center justify-center mb-6 font-bold text-3xl text-[#1B1A55] dark:text-white"
         >
@@ -56,6 +57,9 @@ import Home from "../components/Home.astro";
           PREMIOS
         </h2>
         <Awards />
+      </SectionContainer>
+      <SectionContainer>
+        <Contact />
       </SectionContainer>
     </div>
   </main>
