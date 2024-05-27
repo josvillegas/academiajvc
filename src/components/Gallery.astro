@@ -1,47 +1,85 @@
 <div
-  class="pswp-gallery flex flex-row gap-1 flex-wrap justify-center"
   id="gallery"
+  class="pswp-gallery grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 p-4"
 >
-  <a
-    href="images/jvc01.jpg"
-    data-pswp-width="1875"
-    data-pswp-height="2500"
-    target="_blank"
+  <!-- content 01 -->
+  <div
+    class="col-span-2 sm:col-span-1 md:col-span-2 h-auto md:h-full flex flex-col"
   >
-    <img src="images/jvc01.jpg" width="200" alt="" /></a
+    <!-- img 01 -->
+    <a
+      data-pswp-width="1875"
+      data-pswp-height="2500"
+      href="images/jvc01.jpg"
+      class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow"
+    >
+      <img
+        src="images/jvc01.jpg"
+        alt=""
+        width="200"
+        class="absolute inset-0 h-full w-full object-cover"
+      />
+    </a>
+  </div>
+  <!-- content 02 03 y 04 -->
+  <div class="col-span-2 sm:col-span-1 md:col-span-2">
+    <!-- img 02 -->
+    <a
+      href="images/jvc03.jpg"
+      data-pswp-width="2500"
+      data-pswp-height="1750"
+      class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4"
+    >
+      <img src="images/jvc03.jpg" alt="" class="absolute inset-0 object-fit" />
+    </a>
+    <!-- content 03 y 04 -->
+    <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
+      <!-- img 03 -->
+      <a
+        href="images/jvc02.jpg"
+        data-pswp-width="2500"
+        data-pswp-height="1750"
+        class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40"
+      >
+        <img
+          src="images/jvc02.jpg"
+          alt=""
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+      </a>
+      <!-- img 04 -->
+      <a
+        href="images/jvc04.jpg"
+        data-pswp-width="1875"
+        data-pswp-height="2500"
+        class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40"
+      >
+        <img
+          src="images/jvc04.jpg"
+          alt=""
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+      </a>
+    </div>
+  </div>
+  <!-- content 04 -->
+  <div
+    class="col-span-2 sm:col-span-1 md:col-span-1 h-auto md:h-full flex flex-col"
   >
-  <a
-    href="images/jvc02.jpg"
-    data-pswp-width="2500"
-    data-pswp-height="1750"
-    target="_blank"
-  >
-    <img src="images/jvc02.jpg" width="383" alt="" /></a
-  >
-  <a
-    href="images/jvc04.jpg"
-    data-pswp-width="1875"
-    data-pswp-height="2500"
-    target="_blank"
-  >
-    <img src="images/jvc04.jpg" width="200" alt="" /></a
-  >
-  <a
-    href="images/jvc03.jpg"
-    data-pswp-width="2048"
-    data-pswp-height="1536"
-    target="_blank"
-  >
-    <img src="images/jvc03.jpg" width="379" alt="" /></a
-  >
-  <a
-    href="images/jvc02.jpg"
-    data-pswp-width="960"
-    data-pswp-height="669"
-    target="_blank"
-  >
-    <img src="images/jvc02.jpg" width="409" alt="" /></a
-  >
+    <!-- img 05 -->
+    <a
+      href="images/jvc04.jpg"
+      data-pswp-width="1875"
+      data-pswp-height="2500"
+      class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow"
+    >
+      <img
+        src="images/jvc04.jpg"
+        alt=""
+        class="absolute inset-0 h-full w-full object-cover"
+      />
+    </a>
+  </div>
 </div>
 <script>
   import PhotoSwipeLightbox from "photoswipe/lightbox";
