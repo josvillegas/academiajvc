@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img width="15%" src="https://raw.githubusercontent.com/josvillegas/before-push/main/resources/img/logo/logo.png">
+    <img width="10%" src="https://raw.githubusercontent.com/josvillegas/before-push/main/resources/img/logo/logo.png">
 </p>
 
 <div align="center">
@@ -14,7 +14,7 @@
 </div>
 
 <p align="center" width="100%">
-    <img width="33%" src="https://raw.githubusercontent.com/josvillegas/before-push/main/resources/img/academiajvc/academiajvc.png">
+    <img width="50%" src="https://raw.githubusercontent.com/josvillegas/before-push/main/resources/img/academiajvc/academiajvc.png">
 </p>
 
 ## 🛠️ Stack
