@@ -1,62 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Nosotros from "../components/Nosotros.astro";
-import SectionContainer from "../components/SectionContainer.astro";
-import CardMatch from "../components/CardMatch.astro";
-import TitleMatch from "../components/TitleMatch.astro";
-import CardPrograma from "../components/CardPrograma.astro";
-import Awards from "../components/Awards.astro";
-import Gallery from "../components/Gallery.astro";
-import Contact from "../components/Contact.astro";
 ---
 
 <Layout title="Escuela formativa de fútbol JVC">
-  <main class="px-4">
-    <div class="space-y-24">
-      <SectionContainer id="nosotros">
-        <h2
-          class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-[#192b3f] dark:text-white"
-        >
-          Nosotros
-        </h2>
-        <Nosotros />
-      </SectionContainer>
-      <SectionContainer id="programa">
-        <h2
-          class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-[#1f3b5c] dark:text-white"
-        >
-          Programa
-        </h2>
-        <CardPrograma />
-      </SectionContainer>
-      <SectionContainer id="cronograma">
-        <h2
-          class="flex items-center mb-1 text-3xl font-semibold gap-x-3 text-[#1f3b5c] dark:text-white"
-        >
-          Cronograma
-        </h2>
-        <TitleMatch />
-        <CardMatch />
-      </SectionContainer>
-      <SectionContainer id="galeria">
-        <h2
-          class="flex items-center justify-center mb-6 font-bold text-3xl text-[#1f3b5c] dark:text-white"
-        >
-          MEJORES MOMENTOS
-        </h2>
-        <Gallery />
-      </SectionContainer>
-      <SectionContainer>
-        <h2
-          class="flex items-center justify-center mb-20 font-bold text-3xl text-[#1f3b5c] dark:text-white"
-        >
-          PREMIOS
-        </h2>
-        <Awards />
-      </SectionContainer>
-      <SectionContainer>
-        <Contact />
-      </SectionContainer>
-    </div>
+  <main>
+    <slot />
   </main>
 </Layout>
