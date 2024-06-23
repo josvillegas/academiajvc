@@ -14,10 +14,10 @@
 </div>
 
 <p align="center" width="100%">
-    <img width="50%" src="https://raw.githubusercontent.com/josvillegas/before-push/main/resources/img/academiajvc/academiajvc.png">
+    <img width="50%" src="https://raw.githubusercontent.com/josvillegas/before-push/main/resources/img/academiajvc/PreviewREADME.png">
 </p>
 
 ## 🛠️ Stack
 
 - [**Astro**](https://astro.build/) - El framework web de la nueva época.
-- [**Tailwind**](https://github.com/ssleptsov/ninja-keys) - Framework de CSS que nos proporciona clases de utilidad de un solo propósito
+- [**Tailwind**](https://tailwindcss.com/) - Framework de CSS que nos proporciona clases de utilidad de un solo propósito
