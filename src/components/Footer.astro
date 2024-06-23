@@ -1,17 +1,56 @@
 ---
+import Email from "./icons/Email.astro";
+import Facebook from "./icons/Facebook.astro";
+import Phone from "./icons/Phone.astro";
+
 const currentYear = new Date().getFullYear();
 ---
 
-<footer class="flex justify-center px-5">
+<footer class="flex flex-col bg-[#29304D] py-10 px-10 gap-y-3">
+  <img
+    class="size-24 m-auto"
+    src="images/logoJVC.webp"
+    alt="logo"
+    title="logo de JVC"
+  />
+  <hr class="h-2" />
   <div
-    class="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4 text-center space-x-10"
+    class="flex flex-col justify-center items-center md:flex-row md:justify-between gap-y-4"
   >
-    <span class="text-sm sm:text-center text-[#070F2B] dark:text-gray-100">
-      @ {currentYear}
-      - Casi todos los derechos reservados</span
-    >
-    <span class="text-[#070F2B] dark:text-gray-100">
-      Implementado por <a href="/" class="font-bold">JVP</a>
-    </span>
+    <div>
+      <div class="flex gap-3">
+        <a
+          class="bg-transparent p-1 rounded-full border border-white"
+          href="https://www.facebook.com/profile.php?id=61558733515250"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Facebook class="text-white size-6" />
+        </a>
+        <a
+          class="bg-transparent p-1 rounded-full border border-white"
+          href="tel:987 654 321"
+          title="Llamar al 987 654 321"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Phone class="text-white size-6" />
+        </a>
+        <a
+          class="bg-transparent p-1 rounded-full border border-white"
+          href="mailto:prueba@gmail.com"
+          title="Enviar un correo electronico a prueb@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Email class="text-white size-6" />
+        </a>
+      </div>
+    </div>
+    <div>
+      <span class="text-white text-base"
+        >Disenado y desarrollado por <strong>JVP</strong></span
+      >
+    </div>
   </div>
 </footer>

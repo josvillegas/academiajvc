@@ -1,34 +1,61 @@
 ---
-import Eagle from "./icons/Eagle.astro";
+import Facebook from "./icons/Facebook.astro";
+import Phone from "./icons/Phone.astro";
+import Email from "./icons/Email.astro";
 ---
 
-<div class="mx-auto container max-w-[1400px] mb-10">
-  <div class="flex flex-col items-center">
-    <nav
-      class="flex space-x-40 md:justify-between justify-center items-center mb-5 text-[#070F2B] dark:text-gray-100 font-semibold"
-    >
-      <!-- Logo -->
-      <a href="/" class="flex items-center py-5 px-2 hover:text-gray-900">
-        <Eagle class="fill-slate-800" />
+<div
+  class="bg-[url('/images/FondoJVC.webp')] w-full bg-cover bg-center h-auto bg-no-repeat pb-10 pt-4"
+>
+  <nav class="flex px-16 justify-center items-center mb-36 md:justify-between">
+    <img
+      class="size-20"
+      src="images/logoJVC.webp"
+      alt="logo"
+      title="logo de JVC"
+    />
+    <ul class="hidden gap-10 lg:inline-flex">
+      <li><a href="#Inicio" class="text-white font-bold">Inicio</a></li>
+      <li><a href="#nosotros" class="text-white font-bold">Nosotros</a></li>
+      <li><a href="#cronograma" class="text-white font-bold">Cronograma</a></li>
+      <li>
+        <a href="#metodologia" class="text-white font-bold">Metodologia</a>
+      </li>
+      <li><a href="#galeria" class="text-white font-bold">Galeria</a></li>
+      <li><a href="#logros" class="text-white font-bold">Logros</a></li>
+    </ul>
+  </nav>
+  <div class="flex flex-col my-48 px-16 gap-y-4">
+    <h1 class="text-4xl text-white font-bold max-w-xl md:text-6xl">
+      Escuela formativa de Futbol JVC
+    </h1>
+    <div class="flex gap-3">
+      <a
+        class="bg-transparent p-1 rounded-full border border-white"
+        href="https://www.facebook.com/profile.php?id=61558733515250"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Facebook class="text-white size-6" />
       </a>
-      <!-- Primary navigation -->
-      <div class="hidden md:flex items-center space-x-1 justify-center">
-        <a href="/" class="py-5 px-3 hover:text-[#064d9f] hover:underline"
-          >Inicio</a
-        >
-        <a href="/" class="py-5 px-3 hover:text-[#064d9f] hover:underline"
-          >Nosotros</a
-        >
-        <a href="/" class="py-5 px-3 hover:text-[#064d9f] hover:underline"
-          >Programa</a
-        >
-        <a href="/" class="py-5 px-3 hover:text-[#064d9f] hover:underline"
-          >Galería</a
-        >
-        <a href="/" class="py-5 px-3 hover:text-[#064d9f] hover:underline"
-          >Contáctanos</a
-        >
-      </div>
-    </nav>
+      <a
+        class="bg-transparent p-1 rounded-full border border-white"
+        href="tel:987 654 321"
+        title="Llamar al 987 654 321"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Phone class="text-white size-6" />
+      </a>
+      <a
+        class="bg-transparent p-1 rounded-full border border-white"
+        href="mailto:prueba@gmail.com"
+        title="Enviar un correo electronico a prueb@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Email class="text-white size-6" />
+      </a>
+    </div>
   </div>
 </div>

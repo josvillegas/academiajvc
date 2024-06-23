@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import SectionContainer from "../components/SectionContainer.astro";
 
 interface Props {
   title: string;
@@ -20,18 +21,21 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
   </head>
   <body>
-    <Header />
-    <slot />
-    <Footer />
+    <SectionContainer>
+      <Header />
+      <slot />
+      <Footer />
+    </SectionContainer>
   </body>
 </html>
 <style is:global>
   :root {
-    color-scheme: light dark;
-  }
-  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: #f0f2f6;
+  }
+  html {
+    scroll-behavior: smooth;
   }
 </style>

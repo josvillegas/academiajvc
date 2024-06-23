@@ -1,9 +1,18 @@
 ---
+import Nosotros from "../components/sections/Nosotros.astro";
 import Layout from "../layouts/Layout.astro";
+import Coach from "../components/sections/Coach.astro";
+import Fixture from "../components/sections/Fixture.astro";
+import Metodo from "../components/sections/Metodo.astro";
+import Galery from "../components/sections/Galery.astro";
+import Logros from "../components/sections/Logros.astro";
 ---
 
 <Layout title="Escuela formativa de fútbol JVC">
-  <main>
-    <slot />
-  </main>
+  <Nosotros />
+  <Coach />
+  <Fixture />
+  <Metodo />
+  <Galery />
+  <Logros />
 </Layout>
