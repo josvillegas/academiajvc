@@ -14,7 +14,7 @@
 </div>
 
 <p align="center" width="100%">
-    <img width="50%" src="https://raw.githubusercontent.com/josvillegas/before-push/main/resources/img/academiajvc/PreviewREADME.png">
+    <img width="50%" src="https://raw.githubusercontent.com/josvillegas/before-push/main/resources/img/academiajvc/academiajvcREADME.png">
 </p>
 
 ## 🛠️ Stack
